@@ -6,3 +6,28 @@
 /* Portfolio showcase v2 */
 .portfolio-showcase{display:grid;gap:24px}.case-study{overflow:hidden;border:1px solid var(--line);border-radius:26px;background:#0d1b2d;box-shadow:0 24px 60px rgba(0,0,0,.22)}.case-study-featured{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(300px,.55fr);align-items:stretch}.case-visual{background:#050b13;overflow:hidden}.case-visual img{width:100%;height:100%;object-fit:cover;object-position:top center;transition:transform .4s ease}.case-study:hover .case-visual img{transform:scale(1.012)}.case-study-featured .case-visual img{aspect-ratio:1.75/1;min-height:440px}.case-copy{padding:26px 28px}.case-study-featured .case-copy{display:flex;flex-direction:column;justify-content:flex-end;padding:38px}.case-copy span{font-size:10px;letter-spacing:.15em;font-weight:900;color:#59eab9}.case-copy h3{font-size:25px;line-height:1.1;margin:8px 0 0}.case-study-featured .case-copy h3{font-size:38px}.case-copy p{color:var(--muted);font-size:14px;margin:14px 0 0}.case-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}.case-grid .case-study{display:grid;grid-template-columns:minmax(0,1fr);}.case-grid .case-visual img{aspect-ratio:1.65/1;min-height:290px}.case-grid .case-copy{border-top:1px solid var(--line)}
 @media(max-width:720px){.case-study-featured{display:block}.case-study-featured .case-visual img{min-height:0;aspect-ratio:1.55/1}.case-study-featured .case-copy{padding:24px}.case-study-featured .case-copy h3{font-size:30px}.case-grid{grid-template-columns:1fr;gap:18px}.case-grid .case-visual img{min-height:0;aspect-ratio:1.55/1}.case-copy{padding:20px}.portfolio-showcase{gap:18px}}
+
+/* Mobile portfolio image fix v3 */
+@media(max-width:720px){
+  .portfolio-showcase{gap:16px}
+  .case-study,.case-study-featured,.case-grid .case-study{display:block!important;border-radius:20px}
+  .case-visual{height:auto!important;min-height:0!important;background:transparent!important;line-height:0}
+  .case-visual img,
+  .case-study-featured .case-visual img,
+  .case-grid .case-visual img{
+    display:block!important;
+    width:100%!important;
+    height:auto!important;
+    min-height:0!important;
+    max-height:none!important;
+    aspect-ratio:auto!important;
+    object-fit:contain!important;
+    object-position:top center!important;
+  }
+  .case-study-featured .case-copy{padding:22px 22px 24px!important}
+  .case-study-featured .case-copy h3{font-size:29px!important}
+  .case-grid{gap:16px!important}
+  .case-grid .case-copy{padding:20px 20px 22px!important}
+  .case-copy h3{font-size:24px;margin-top:6px}
+  .case-copy p{font-size:13px;line-height:1.5}
+}
