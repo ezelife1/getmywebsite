@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 82" role="img" aria-labelledby="title desc">
+  <title id="title">GetMyWebsite</title><desc id="desc">GetMyWebsite logo</desc>
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1787ff"/><stop offset="1" stop-color="#14df91"/></linearGradient></defs>
+  <g transform="translate(4 6)">
+    <path d="M12 18c0-6 5-11 11-11h25v10H24a3 3 0 0 0-3 3v31a3 3 0 0 0 3 3h21v10H23c-6 0-11-5-11-11V18Z" fill="url(#g)"/>
+    <path d="M73 7h24c6 0 11 5 11 11v35c0 6-5 11-11 11H73V54h22a3 3 0 0 0 3-3V20a3 3 0 0 0-3-3H73V7Z" fill="url(#g)"/>
+    <path d="M67 0 43 38h17L51 75l31-45H65L79 0H67Z" fill="url(#g)"/>
+  </g>
+  <text x="130" y="52" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="800" fill="#f8fbff" letter-spacing="-1.8">GetMyWebsite</text>
+</svg>
