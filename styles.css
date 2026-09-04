@@ -146,3 +146,33 @@
     min-height:54px!important;
   }
 }
+
+/* Payment-row alignment correction */
+@media(min-width:721px){
+  .pricing-grid{
+    align-items:start!important;
+  }
+  .price-card{
+    height:auto!important;
+    min-height:0!important;
+  }
+  .pricing-grid .price-card:first-child .price-actions{
+    margin-top:126px!important;
+  }
+  .pricing-grid .price-card.featured .price-actions{
+    margin-top:0!important;
+  }
+  .price-actions{
+    grid-template-columns:1fr 1fr!important;
+  }
+  .price-actions .btn{
+    height:58px!important;
+    min-height:58px!important;
+  }
+}
+@media(max-width:720px){
+  .pricing-grid .price-card:first-child .price-actions,
+  .pricing-grid .price-card.featured .price-actions{
+    margin-top:0!important;
+  }
+}
