@@ -32,147 +32,25 @@
   .case-copy p{font-size:13px;line-height:1.5}
 }
 
-/* Pricing options only */
-.monthly-option{margin-top:-12px;margin-bottom:18px;color:#9cacbf;font-size:15px;font-weight:600}
-.monthly-option strong{color:#61edbc}
-.price-actions{display:grid;grid-template-columns:1fr 1fr;gap:10px}
-.price-actions .btn{width:100%;padding-left:12px;padding-right:12px}
-@media(max-width:720px){.price-actions{grid-template-columns:1fr}}
 
-/* Equal-height pricing cards + aligned CTAs */
+/* Revised payment cards */
 .pricing-grid{align-items:stretch}
-.price-card{display:flex;flex-direction:column;height:100%}
-.price-card .price-top{display:flex;flex-direction:column}
+.price-card{display:flex;flex-direction:column}
+.monthly-option{margin:-10px 0 14px;color:var(--muted);font-size:14px;font-weight:600}
+.monthly-option strong{color:#61edbc}
 .price-card ul{flex:1}
-.price-actions{margin-top:auto}
-@media(min-width:721px){
-  .pricing-grid .price-card .price-top p{min-height:80px}
-  .pricing-grid .price-card ul{min-height:430px}
-}
-
-/* Compact pricing card correction */
-@media(min-width:721px){
-  .pricing-grid{align-items:stretch}
-  .price-card{
-    height:auto!important;
-    min-height:0!important;
-    display:flex;
-    flex-direction:column;
-    padding:32px!important;
-  }
-  .pricing-grid .price-card .price-top p{
-    min-height:0!important;
-  }
-  .pricing-grid .price-card ul{
-    min-height:0!important;
-    flex:0 0 auto!important;
-    padding:20px 0!important;
-    margin:18px 0!important;
-  }
-  .price-card li{
-    padding-top:5px!important;
-    padding-bottom:5px!important;
-  }
-  .price-actions{
-    margin-top:auto!important;
-  }
-}
-
-/* Pricing layout correction v3 */
-.pricing-grid{
-  align-items:start!important;
-}
-.price-card{
-  height:auto!important;
-  min-height:0!important;
-  align-self:start!important;
-  display:block!important;
-  padding:30px!important;
-}
-.price-card .price-top p{
-  min-height:0!important;
-}
-.price-card ul{
-  min-height:0!important;
-  height:auto!important;
-  padding:18px 0!important;
-  margin:18px 0!important;
-}
-.price-card li{
-  padding-top:5px!important;
-  padding-bottom:5px!important;
-}
-.price-actions{
-  display:grid!important;
-  grid-template-columns:1fr 1fr!important;
-  gap:10px!important;
-  margin-top:0!important;
-}
+.price-actions{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:auto}
 .price-actions .btn{
-  min-height:52px!important;
-  padding:0 12px!important;
-  font-size:13px!important;
+  width:100%;
+  height:58px;
+  min-height:58px;
+  padding:0 12px;
+  font-size:14px;
+  white-space:nowrap;
 }
 @media(max-width:720px){
-  .price-card{padding:26px 22px!important}
-  .price-actions{grid-template-columns:1fr!important}
-}
-
-/* Match payment buttons exactly */
-.price-actions{
-  display:grid!important;
-  grid-template-columns:1fr 1fr!important;
-  gap:12px!important;
-}
-.price-actions .btn{
-  width:100%!important;
-  height:58px!important;
-  min-height:58px!important;
-  padding:0 12px!important;
-  margin:0!important;
-  border-radius:14px!important;
-  font-size:14px!important;
-  font-weight:800!important;
-  line-height:1!important;
-  display:flex!important;
-  align-items:center!important;
-  justify-content:center!important;
-  white-space:nowrap!important;
-}
-@media(max-width:720px){
-  .price-actions{grid-template-columns:1fr!important}
-  .price-actions .btn{
-    height:54px!important;
-    min-height:54px!important;
-  }
-}
-
-/* Payment-row alignment correction */
-@media(min-width:721px){
-  .pricing-grid{
-    align-items:start!important;
-  }
-  .price-card{
-    height:auto!important;
-    min-height:0!important;
-  }
-  .pricing-grid .price-card:first-child .price-actions{
-    margin-top:126px!important;
-  }
-  .pricing-grid .price-card.featured .price-actions{
-    margin-top:0!important;
-  }
-  .price-actions{
-    grid-template-columns:1fr 1fr!important;
-  }
-  .price-actions .btn{
-    height:58px!important;
-    min-height:58px!important;
-  }
-}
-@media(max-width:720px){
-  .pricing-grid .price-card:first-child .price-actions,
-  .pricing-grid .price-card.featured .price-actions{
-    margin-top:0!important;
-  }
+  .pricing-grid{align-items:start}
+  .price-card{display:block}
+  .price-actions{grid-template-columns:1fr}
+  .price-actions .btn{height:54px;min-height:54px}
 }
