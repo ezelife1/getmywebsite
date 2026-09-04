@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>£149 Website Build | GetMyWebsite</title>
+<meta name="description" content="Get a professional business website built for a one-off £149 payment. Mobile optimised, domain and hosting included.">
+<style>
+:root{
+  --bg:#07111f;
+  --bg2:#0a1728;
+  --panel:#0b182a;
+  --line:rgba(255,255,255,.10);
+  --text:#f5f8fc;
+  --muted:#a6b4c8;
+  --blue:#27a9f5;
+  --green:#2be0b1;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  color:var(--text);
+  font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
+  background:
+    radial-gradient(circle at 8% 15%,rgba(39,169,245,.14),transparent 27%),
+    radial-gradient(circle at 90% 24%,rgba(43,224,177,.10),transparent 28%),
+    linear-gradient(135deg,#07111f 0%,#08121f 58%,#091a20 100%);
+}
+a{color:inherit}
+.site-header{
+  height:88px;
+  border-bottom:1px solid rgba(255,255,255,.08);
+  background:rgba(7,14,26,.94);
+  display:flex;
+  align-items:center;
+}
+.header-inner{
+  width:min(100% - 56px,1380px);
+  margin:auto;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+.brand{display:flex;align-items:center;gap:14px;text-decoration:none}
+.brand-mark{width:78px;height:54px}
+.brand-name{font-size:29px;font-weight:850;letter-spacing:-1.4px}
+.secure-top{font-size:13px;color:#c8d3e1;display:flex;align-items:center;gap:9px;font-weight:700}
+.secure-dot{width:9px;height:9px;border-radius:50%;background:var(--green);box-shadow:0 0 0 6px rgba(43,224,177,.10)}
+
+.hero{
+  min-height:calc(100vh - 88px);
+  display:grid;
+  place-items:center;
+  padding:62px 22px 74px;
+}
+.checkout{
+  width:min(100%,980px);
+  text-align:center;
+}
+.eyebrow{
+  display:inline-flex;
+  align-items:center;
+  gap:12px;
+  font-size:12px;
+  font-weight:850;
+  letter-spacing:.18em;
+  text-transform:uppercase;
+  color:#63e8c3;
+}
+.eyebrow:before{
+  content:"";
+  width:42px;height:2px;
+  background:linear-gradient(90deg,var(--blue),var(--green));
+}
+h1{
+  margin:23px auto 19px;
+  max-width:930px;
+  font-size:clamp(50px,6.6vw,88px);
+  line-height:.95;
+  letter-spacing:-.055em;
+}
+.gradient{
+  background:linear-gradient(90deg,#36a9ff,#52e8c0);
+  -webkit-background-clip:text;
+  background-clip:text;
+  color:transparent;
+}
+.lead{
+  margin:0 auto;
+  max-width:760px;
+  font-size:clamp(17px,1.8vw,21px);
+  line-height:1.58;
+  color:var(--muted);
+}
+.offer{
+  margin:40px auto 0;
+  width:min(100%,780px);
+  padding:32px;
+  border:1px solid var(--line);
+  border-radius:24px;
+  background:linear-gradient(180deg,rgba(13,25,45,.94),rgba(8,17,31,.97));
+  box-shadow:0 26px 80px rgba(0,0,0,.26);
+}
+.price-row{
+  display:flex;
+  align-items:flex-end;
+  justify-content:center;
+  gap:11px;
+}
+.price{
+  font-size:76px;
+  line-height:.9;
+  font-weight:900;
+  letter-spacing:-.06em;
+}
+.per{
+  font-size:18px;
+  color:var(--muted);
+  font-weight:750;
+  padding-bottom:8px;
+}
+.once{
+  margin:9px 0 0;
+  color:#69e5c5;
+  font-size:13px;
+  font-weight:850;
+  text-transform:uppercase;
+  letter-spacing:.12em;
+}
+.features{
+  margin:28px auto;
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:11px;
+  text-align:left;
+}
+.feature{
+  min-height:70px;
+  padding:15px 16px;
+  border:1px solid rgba(255,255,255,.09);
+  border-radius:14px;
+  background:#0a1526;
+  display:flex;
+  gap:10px;
+  align-items:center;
+  font-size:13.5px;
+  font-weight:760;
+  color:#e9eef6;
+}
+.tick{
+  flex:0 0 24px;
+  width:24px;height:24px;
+  border-radius:50%;
+  display:grid;
+  place-items:center;
+  background:rgba(43,224,177,.12);
+  color:#55e9c5;
+  font-size:13px;
+  font-weight:900;
+}
+.cta{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:100%;
+  min-height:64px;
+  border-radius:15px;
+  text-decoration:none;
+  color:#04111d;
+  background:linear-gradient(90deg,#28a9f4 0%,#2ee0bd 100%);
+  font-weight:900;
+  font-size:18px;
+  box-shadow:0 12px 34px rgba(39,169,245,.18);
+  transition:.18s ease;
+}
+.cta:hover{filter:brightness(1.06);transform:translateY(-1px)}
+.small{margin:14px 0 0;color:#7f8da3;font-size:12.5px}
+.note{
+  margin:25px auto 0;
+  color:#8e9bb0;
+  font-size:13.5px;
+  line-height:1.65;
+  max-width:700px;
+}
+.reassurance{
+  margin:21px auto 0;
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:8px 18px;
+  color:#b8c4d4;
+  font-size:12px;
+  font-weight:750;
+}
+.reassurance span{display:inline-flex;align-items:center;gap:7px}
+.reassurance i{
+  width:7px;height:7px;border-radius:50%;
+  background:linear-gradient(135deg,var(--blue),var(--green));
+  display:inline-block;
+}
+
+@media(max-width:760px){
+  .site-header{height:74px}
+  .header-inner{width:min(100% - 26px,1380px)}
+  .brand-mark{width:59px;height:42px}
+  .brand-name{font-size:22px}
+  .secure-top{display:none}
+  .hero{min-height:calc(100vh - 74px);padding:44px 16px 56px}
+  h1{font-size:clamp(43px,13vw,63px)}
+  .lead{font-size:16.5px}
+  .offer{padding:23px 17px;border-radius:20px;margin-top:31px}
+  .features{grid-template-columns:1fr 1fr}
+  .price{font-size:64px}
+  .per{font-size:16px}
+}
+@media(max-width:480px){
+  .features{grid-template-columns:1fr}
+  .feature{min-height:56px}
+  .cta{font-size:16.5px;padding:0 14px}
+  .reassurance{gap:8px 14px}
+}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="/">
+      <svg class="brand-mark" viewBox="0 0 110 76" aria-hidden="true">
+        <defs>
+          <linearGradient id="gmw" x1="0" x2="1">
+            <stop offset="0" stop-color="#26a9f5"/>
+            <stop offset="1" stop-color="#27e3b1"/>
+          </linearGradient>
+        </defs>
+        <path d="M14 16c0-5 4-9 9-9h67c5 0 9 4 9 9v42c0 5-4 9-9 9H67" fill="none" stroke="url(#gmw)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M42 9 27 40h20l-8 30 31-40H50L60 9Z" fill="url(#gmw)"/>
+      </svg>
+      <span class="brand-name">GetMyWebsite</span>
+    </a>
+    <div class="secure-top"><span class="secure-dot"></span>Secure one-off payment</div>
+  </div>
+</header>
+
+<main class="hero">
+  <section class="checkout">
+    <div class="eyebrow">One-off website build</div>
+
+    <h1>Your business website.<br><span class="gradient">All in for £149.</span></h1>
+
+    <p class="lead">
+      A professional, mobile-first website built around your business — with your domain and hosting included, without a monthly website subscription.
+    </p>
+
+    <div class="offer">
+      <div class="price-row">
+        <div class="price">£149</div>
+        <div class="per">one-off</div>
+      </div>
+      <div class="once">One payment. Your website built for you.</div>
+
+      <div class="features">
+        <div class="feature"><span class="tick">✓</span>Professional Website Design</div>
+        <div class="feature"><span class="tick">✓</span>Mobile Optimised</div>
+        <div class="feature"><span class="tick">✓</span>Domain Included</div>
+        <div class="feature"><span class="tick">✓</span>Hosting Included</div>
+        <div class="feature"><span class="tick">✓</span>Call + WhatsApp Integration</div>
+        <div class="feature"><span class="tick">✓</span>Contact / Enquiry Setup</div>
+        <div class="feature"><span class="tick">✓</span>SEO-Ready Foundations</div>
+        <div class="feature"><span class="tick">✓</span>Business Branding Applied</div>
+        <div class="feature"><span class="tick">✓</span>Managed Website Launch</div>
+      </div>
+
+      <a class="cta" href="https://pay.tide.co/products/website-des-cC1OmQhd">
+        Get My Website — £149 →
+      </a>
+
+      <p class="small">Secure one-off payment processed through Tide.</p>
+
+      <div class="reassurance">
+        <span><i></i>No monthly website subscription</span>
+        <span><i></i>Built for your business</span>
+        <span><i></i>Mobile-ready</span>
+      </div>
+    </div>
+
+    <p class="note">
+      Once payment is complete, we’ll collect your business details, branding, services and any photos you already have, then begin building your website.
+    </p>
+  </section>
+</main>
+
+</body>
+</html>
