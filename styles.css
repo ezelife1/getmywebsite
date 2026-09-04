@@ -54,3 +54,72 @@
   .price-actions{grid-template-columns:1fr}
   .price-actions .btn{height:54px;min-height:54px}
 }
+
+
+/* Cross-browser pricing card alignment fix — Chrome + Safari */
+.pricing-grid{
+  display:grid!important;
+  grid-template-columns:1fr 1fr!important;
+  align-items:stretch!important;
+}
+.pricing-grid .price-card{
+  display:grid!important;
+  grid-template-rows:auto 1fr auto!important;
+  height:100%!important;
+  min-height:0!important;
+  align-self:stretch!important;
+}
+.pricing-grid .price-card .price-top{
+  min-height:0!important;
+}
+.pricing-grid .price-card .price-top p{
+  min-height:74px!important;
+}
+.pricing-grid .price-card ul{
+  display:block!important;
+  flex:none!important;
+  min-height:0!important;
+  height:auto!important;
+  margin:20px 0!important;
+  padding:22px 0!important;
+  align-self:stretch!important;
+}
+.pricing-grid .price-card li{
+  padding-top:6px!important;
+  padding-bottom:6px!important;
+}
+.pricing-grid .price-actions{
+  display:grid!important;
+  grid-template-columns:1fr 1fr!important;
+  gap:12px!important;
+  margin:0!important;
+  align-self:end!important;
+}
+.pricing-grid .price-actions .btn{
+  width:100%!important;
+  height:58px!important;
+  min-height:58px!important;
+  margin:0!important;
+  padding:0 12px!important;
+  display:flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  white-space:nowrap!important;
+}
+
+@media(max-width:720px){
+  .pricing-grid{
+    grid-template-columns:1fr!important;
+    align-items:start!important;
+  }
+  .pricing-grid .price-card{
+    display:block!important;
+    height:auto!important;
+  }
+  .pricing-grid .price-card .price-top p{
+    min-height:0!important;
+  }
+  .pricing-grid .price-actions{
+    grid-template-columns:1fr!important;
+  }
+}
