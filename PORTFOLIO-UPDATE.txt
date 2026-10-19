@@ -1,0 +1,3 @@
+Current examples: Retreat92; Sparkling Cleaning Services; Golf Smarter; Coast to Coast Exterior Cleaning; BCE Brickwork.
+Desktop pricing cards constrained to 920px total width, with compact spacing and readable type.
+Screenshots displayed in full without cropping. Package overview routes and payment destinations preserved.

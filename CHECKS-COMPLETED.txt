@@ -1,0 +1,13 @@
+GetMyWebsite rebrand delivery checks
+Black/white/yellow brand family with one-word vector lockup and round attached header mark.
+£20 button -> /start/ package overview -> original £20 Stripe checkout.
+£35 button -> /start-pro/ package overview -> original £35 Stripe checkout.
+Original £149 and £249 outright destinations retained. No checkout payment submitted.
+Original public routes retained; all 5 previously missing linked service/portfolio pages added.
+Call 07367 856 186 and WhatsApp 447367856186 checked. Form includes selected package and all entered details.
+Fixed header, attached round overlapping mark and floating contacts hidden/unfocusable until full hero exits verified in source/runtime.
+Unique 1200x630 wavy business sharing image with centred round brand mark; OG and Twitter references checked.
+Original portfolio images retained. New hero illustration included. Rejected laptop/ticks graphic excluded from website and download.
+All local links, raster files, page titles, descriptions, H1s, canonicals, schema, sitemap and crawl directives checked.
+Public ZIP retains getmywebsite.uk live-domain metadata and index settings; overview checkout pages noindex. Hosted private copy uses its own origin and noindex throughout.
+Browser visual testing unavailable and remains unverified.

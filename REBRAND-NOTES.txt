@@ -1,0 +1,10 @@
+GetMyWebsite — black/white/yellow family rebrand
+Reference: live GetMySocials and GetMyLeads websites on 19 October 2026.
+One-word vector brand lockup, round attached header emblem, bold typography, illustrative assets and clear editorial sections.
+All original routes retained: /, /start/, /getting-started/, /build/. New /start-pro/ overview before £35/month Stripe checkout.
+£20/month -> /start/ -> original Stripe link. £35/month -> /start-pro/ -> original Stripe link. £149 and £249 outright destinations unchanged.
+Original offers, Pro benefits, Call/WhatsApp 07367 856 186 preserved.
+Existing portfolio and image assets retained; no original assets removed. Previously missing linked service pages created.
+Live-domain canonicals, metadata, schema, sitemap and robots retained/updated. Package checkout pages are noindex,follow; public pages index,follow.
+Use all included files when updating the website, including the content-versioned brand CSS.
+Browser visual testing unavailable and remains unverified.

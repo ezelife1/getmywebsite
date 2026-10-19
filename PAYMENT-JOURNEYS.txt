@@ -1,0 +1,5 @@
+Business Website £20/month: index.html -> start/index.html -> https://buy.stripe.com/28E9AUfte2V5dOlbfEf3a03
+Business Website Pro £35/month: index.html -> start-pro/index.html -> https://buy.stripe.com/9B6fZi6WIdzJh0xbfEf3a0c
+£149 outright: original https://pay.tide.co/products/website-des-cC1OmQhd retained; /build/ route also retained.
+£249 outright: original https://pay.tide.co/products/getmyads-1-Kl90glOZ/landing retained.
+No recurring checkout link is exposed directly on the homepage or service pages.
